@@ -11,7 +11,7 @@ Esse projeto foi criado para demonstrar **habilidades em Ciência de Dados**, ab
 ## 📑 Notebook do Projeto  
 O notebook usado para análise exploratória e modelagem preditiva pode ser acessado diretamente no **GitHub**:  
 
-🔗 **[Notebook no GitHub](https://github.com/JeffeGN/SaudeViva/blob/main/notebooks/Plano%20de%20Sa%C3%BAde.ipynb)**  
+🔗 **[Notebook no GitHub](https://github.com/JeffeGN/SaudeViva/blob/main/notebooks/Plano%20de%20Sa%C3%BAde.ipynb)**  (Abra em uma nova aba)
 
 ---
 
