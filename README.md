@@ -8,10 +8,10 @@ Esse projeto foi criado para demonstrar **habilidades em Ciência de Dados**, ab
 
 ---
 
-## 📑 Notebook do Projeto  
-O notebook usado pode ser acessado diretamente no **GitHub**:  
+## 📑 Notebook e Dashboard do Projeto  
 
-🔗 **[Notebook no GitHub](https://github.com/JeffeGN/SaudeViva/blob/main/Plano%20de%20Sa%C3%BAde.ipynb)**  (Abra em uma nova aba)
+🔗 **[Notebook no GitHub](https://github.com/JeffeGN/SaudeViva/blob/main/Plano%20de%20Sa%C3%BAde.ipynb)**
+🔗 **[Aplicação via Streamlit Cloud](https://saudeviva-mj29yxjmdhwgsxx7we2xtb.streamlit.app/)**
 
 ---
 
@@ -137,7 +137,7 @@ Se o comando não retornar uma versão do Git, instale-o [aqui](https://git-scm.
 
 ---
 
-## 🎮 Como Executar  
+## 🎮 Como Executar Localmente  
 
 1️⃣ **Clone o repositório**  
 ```bash
