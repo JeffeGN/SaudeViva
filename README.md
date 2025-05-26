@@ -1,62 +1,118 @@
-# SaudeViva
-Aplicação em Python e Streamlit para prever custos de planos de saúde com base em fatores individuais.
-=======
-# 📌 Case de Previsão de Custo Anual – SaúdeViva
+# 📊 SaúdeViva – Previsão de Custos de Planos de Saúde  
 
-Saúde acessível e previsível é essencial para um planejamento financeiro eficiente. Pensando nisso, o plano de saúde **SaúdeViva** busca oferecer **previsões precisas** para seus clientes, garantindo **transparência** no cálculo de custos com base em características individuais.
+## 🚀 Visão Geral  
 
-## 🏥 **Contexto do Negócio**
-O setor de saúde suplementar enfrenta desafios na precificação de planos, pois fatores como **idade, IMC, hábitos como tabagismo, quantidade de filhos e região de residência** impactam diretamente os custos anuais de um beneficiário. No caso do **SaúdeViva**, a empresa opera em quatro regiões: **Norte, Nordeste, Sul e Sudeste**.  
+O **SaúdeViva** é uma aplicação desenvolvida em **Python** e **Streamlit**, projetada para estimar os custos de planos de saúde com base em fatores individuais. O objetivo é oferecer **transparência na precificação**, permitindo que os usuários visualizem como **idade, IMC, tabagismo e número de filhos** impactam no valor final.
 
-Os cálculos são ajustados conforme as condições individuais dos clientes, garantindo preços mais justos e **reduzindo riscos para a empresa e consumidores**.
-
-### 📌 **Ajuste de Regiões no Modelo**
-Os dados utilizados neste projeto categorizam as regiões como **Northeast, Southeast, Northwest e Southwest**. No entanto, no Brasil, a divisão oficial inclui **Norte e Sul** em vez de Northwest e Southwest.  
-Por isso, para alinhar o modelo à realidade nacional:  
-✅ **Northwest foi tratado como Norte**  
-✅ **Southwest foi tratado como Sul**  
-Esse ajuste garante que as previsões fiquem coerentes com a segmentação geográfica oficial.
-
-## 🎯 **Objetivo do Projeto**
-Criamos um modelo de **Machine Learning** capaz de **prever o custo mensal e anual** do plano de saúde, permitindo à empresa estimar com **precisão** os valores cobrados. Isso otimiza o processo de cotação e melhora a experiência do usuário, garantindo que cada cliente receba uma oferta personalizada.
-
-## 🚀 **Impacto no Mercado**
-- 💰 **Redução de custos operacionais**: Automatizando a precificação, eliminamos processos manuais.
-- 🏥 **Decisões mais assertivas**: A empresa pode ajustar preços de acordo com padrões de consumo e perfil de risco.
-- 🤝 **Maior transparência**: Clientes entendem como suas características influenciam o custo do plano.
+Esse projeto foi criado para demonstrar **habilidades em Ciência de Dados**, abrangendo **análise exploratória**, **tratamento de dados**, **Machine Learning**, **validação de modelos** e **deploy de aplicações interativas**.
 
 ---
 
-# 📊 **Análise da Importância das Variáveis na Previsão de Custos**
+## 🎯 Habilidades Demonstradas  
 
-A precificação de planos de saúde é fortemente influenciada por diversos fatores individuais. Nosso modelo considera algumas variáveis fundamentais que impactam diretamente os custos anuais dos beneficiários.  
-
-### **1️⃣ Idade** 📈  
-A idade tem uma relação **direta e crescente** com o custo do plano de saúde. À medida que envelhecemos, estamos mais propensos a desenvolver **doenças crônicas** e demandar mais atendimentos médicos.  
-➡ **Padrão observado:** Quanto maior a idade, maior o custo anual.  
-➡ **Explicação:** O envelhecimento aumenta os custos com exames, consultas, tratamentos e internações.  
-
-### **2️⃣ Tabagismo** 🚬  
-Ser fumante **aumenta consideravelmente os custos**, pois está associado a doenças pulmonares, cardiovasculares e maior necessidade de acompanhamento médico.  
-➡ **Impacto:** O custo médio dos fumantes é significativamente mais alto do que dos não fumantes.  
-➡ **Explicação:** Além de problemas respiratórios, fumantes podem desenvolver câncer e outras condições graves, elevando os custos de tratamento.  
-
-### **3️⃣ Índice de Massa Corporal (BMI)** ⚖  
-O IMC elevado pode indicar sobrepeso ou obesidade, condições que aumentam os riscos de hipertensão, diabetes e problemas cardíacos.  
-➡ **Padrão observado:** Pessoas com IMC maior tendem a ter custos mais altos.  
-➡ **Explicação:** O excesso de peso está ligado a **comorbidades**, aumentando a frequência de exames e consultas médicas.  
-
-### **4️⃣ Região de residência** 🌍  
-O local onde o beneficiário mora impacta os custos do plano, pois diferentes regiões possuem **níveis de atendimento e custos operacionais distintos**.  
-➡ **Padrão observado:** Diferenças significativas entre regiões, sendo algumas mais caras que outras.  
-➡ **Explicação:** Infraestrutura hospitalar, custo de vida e demanda médica variam de acordo com a localização.  
-
-### **5️⃣ Quantidade de filhos** 👶  
-O número de filhos pode impactar diretamente os custos do plano de saúde, pois famílias maiores costumam demandar mais atendimentos médicos.  
-➡ **Padrão observado:** Beneficiários com mais filhos tendem a ter custos médios mais altos.  
-➡ **Explicação:** Crianças necessitam de **consultas pediátricas regulares**, vacinas, exames e tratamentos específicos, o que pode elevar os custos gerais do plano.
+✔️ **Manipulação de dados** com `pandas` e `numpy`, garantindo organização e limpeza dos registros.  
+✔️ **Análise exploratória de dados (EDA)** utilizando histogramas, boxplots e matriz de correlação.  
+✔️ **Engenharia de features**, realizando transformação de variáveis categóricas e normalização de dados.  
+✔️ **Testes de diferentes algoritmos de Machine Learning** para avaliar precisão e desempenho.  
+✔️ **Uso de um modelo baseline** para comparar o desempenho das abordagens preditivas.  
+✔️ **Validação de modelos** utilizando métricas como `MAE`, `RMSE`, `R²` e `Cross-validation`.  
+✔️ **Otimização de hiperparâmetros com Bayesian Search** para os modelos mais promissores.  
+✔️ **Criação de um dashboard interativo** utilizando `Streamlit`.  
+✔️ **Deploy do projeto no GitHub**, estruturando um repositório profissional para apresentação.  
 
 ---
 
-## 📌 **Conclusão**
-Este projeto apresenta um **case realista**, simulando como um plano de saúde pode prever os custos anuais de seus beneficiários. Com a implementação de **Machine Learning**, o modelo permite que a empresa tome **decisões estratégicas**, melhore sua precificação e aumente a transparência para os clientes.
+## 🛠 Tecnologias Utilizadas  
+
+### **📊 Manipulação e Visualização de Dados**  
+✔️ `pandas` → Estruturação, limpeza e análise de datasets.  
+✔️ `numpy` → Cálculos matemáticos para tratamento de variáveis numéricas.  
+✔️ `matplotlib` / `seaborn` → Criação de gráficos exploratórios e análise estatística.  
+
+### **🤖 Modelagem Preditiva e Machine Learning**  
+✔️ `scikit-learn` → Implementação de algoritmos para previsão de custos.  
+✔️ `xgboost` → Modelo testado por sua robustez e alta performance.  
+✔️ `lightgbm` → Escolhido como modelo final por seu consumo otimizado de recursos.  
+✔️ `random forest` → Avaliado por sua precisão e interpretabilidade.  
+✔️ `pickle` → Serialização do modelo para integração no dashboard.  
+
+### **🖥️ Desenvolvimento Web e Deploy**  
+✔️ `Streamlit` → Interface interativa para visualização das previsões.  
+✔️ `GitHub` → Hospedagem do código-fonte e documentação profissional.  
+
+---
+
+## 📊 Etapas do Projeto  
+
+### **1️⃣ Baseline para Avaliação de Modelos**  
+- A **Regressão Linear** foi usada como **baseline** para medir a eficácia dos algoritmos preditivos.  
+- Comparação de **múltiplos modelos**, garantindo uma análise robusta antes da escolha do modelo final.  
+
+### **2️⃣ Modelos Testados**  
+Os seguintes algoritmos foram treinados e avaliados:  
+✔️ **Regressão Linear** → Modelo inicial para comparação de desempenho.  
+✔️ **Regressão Ridge** → Testado para redução de multicolinearidade.  
+✔️ **Regressão Lasso** → Aplicado para seleção de features relevantes.  
+✔️ **XGBoost Regressor** → Avaliado por sua capacidade de generalização.  
+✔️ **LightGBM Regressor** → Destacado por seu baixo consumo computacional e rapidez.  
+✔️ **Random Forest Regressor** → Obteve desempenho próximo ao LightGBM.  
+
+### **3️⃣ Otimização de Modelos com Bayesian Search**  
+Os modelos **Random Forest** e **LightGBM** apresentaram resultados similares, então ambos foram **otimizados com Bayesian Search** para ajuste fino dos hiperparâmetros.  
+
+✔️ O **LightGBM** foi escolhido como modelo final por **ser mais rápido e consumir menos recursos**, tornando-se ideal para deploy com **Streamlit**.  
+
+### **4️⃣ Validação de Modelos**  
+✔️ **Mean Absolute Error (MAE)** → Avaliação do erro absoluto médio entre previsões e valores reais.  
+✔️ **Root Mean Squared Error (RMSE)** → Interpretação do erro considerando unidades originais.  
+✔️ **R² Score** → Medida da capacidade do modelo em explicar a variabilidade dos custos.  
+✔️ **Cross-validation (K-Fold)** → Aplicação para garantir **generalização** do modelo.  
+
+### **5️⃣ Construção do Dashboard Interativo com Streamlit**  
+✔️ Interface intuitiva para entrada de dados do usuário.  
+✔️ Exibição do custo mensal e anual com detalhamento dos fatores que impactam na precificação.  
+✔️ Geração dinâmica de previsões conforme os inputs do usuário.  
+
+---
+
+## 💰 Estrutura do Cálculo  
+
+O custo do plano de saúde é ajustado com um valor base **anual** de **R$ 4.000**, adicionando incrementos conforme os seguintes fatores:
+
+| Fator | Acréscimo Mensal |
+|-------|----------------|
+| **Idade** | + R$ 8,33 por ano |
+| **IMC** | + R$ 4,16 por ponto de IMC |
+| **Tabagismo** | + R$ 208,33 se fumante |
+| **Número de Filhos** | + R$ 41,66 por filho |
+
+O valor total é calculado e exibido na interface do **Streamlit**, permitindo ao usuário visualizar tanto o custo **mensal** quanto **anual**.
+
+---
+
+## 🎮 Como Executar  
+
+1️⃣ **Clone o repositório**  
+```bash
+git clone https://github.com/JeffeGN/SaudeViva.git
+```
+
+2️⃣ Acesse o diretório do projeto
+```bash
+cd SaudeViva
+```
+3️⃣ Instale as dependências listadas em requirements.txt
+```bash
+pip install -r requirements.txt
+```
+4️⃣ Acesse o diretório da aplicação Streamlit
+```bash
+cd streamlit_app
+```
+5️⃣ Execute a aplicação Streamlit
+```bash
+streamlit run app.py
+```
+6️⃣ Insira seus dados na interface e veja sua estimativa de custo  
+
+![image](https://github.com/user-attachments/assets/9fbd559d-b375-44ae-9120-44a6dae0c300)
