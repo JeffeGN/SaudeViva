@@ -46,6 +46,21 @@ Esse projeto foi criado para demonstrar **habilidades em Ciência de Dados**, ab
 ✔️ Criação de um dashboard interativo utilizando **Streamlit**.  
 ✔️ Deploy do projeto no **GitHub** e **Streamlit Cloud**, tornando a aplicação acessível diretamente online.  
 
+---
+
+## 📌 Aprendizados e Desafios  
+
+Durante o desenvolvimento do projeto, foram enfrentados desafios relacionados à manipulação e modelagem dos dados, bem como à implementação e deploy da aplicação.  
+
+✔️ **Tratamento de dados geográficos** – O dataset original não continha as regiões Sul e Norte do Brasil. Para garantir representatividade, as regiões Noroeste e Sudoeste foram utilizadas como referência.  
+✔️ **Escolha do modelo final** – Random Forest e LightGBM apresentaram resultados promissores e semelhantes. No entanto, após a otimização dos hiperparâmetros, o LightGBM demonstrou desempenho significativamente superior, sendo adotado como modelo final.  
+✔️ **Ajuste de formato monetário** – Após o deploy com **Streamlit**, identificou-se que os valores monetários não estavam no padrão brasileiro. Para correção, foi desenvolvida uma função utilizando `lambda`, garantindo a correta formatação dos preços.  
+✔️ **Deploy na nuvem e compatibilidade de dependências** – O arquivo `requirements.txt` apresentou incompatibilidades com o **Streamlit Community Cloud**, exigindo ajustes para versões compatíveis e atualizadas das bibliotecas utilizadas, permitindo a execução correta do deploy.  
+
+A resolução desses desafios contribuiu para o aprimoramento de habilidades essenciais em Ciência de Dados, como engenharia de features, otimização de modelos, padronização de dados e implementação de soluções web interativas.  
+
+---
+
 ## 🛠 Tecnologias Utilizadas  
 
 ### 📊 Manipulação e Visualização de Dados  
