@@ -8,6 +8,25 @@ Esse projeto foi criado para demonstrar **habilidades em Ciência de Dados**, ab
 
 ---
 
+## 📈 Impacto do Projeto  
+
+### 🔹 **Benefícios para Consumidores**  
+✔️ **Transparência na precificação** – Permite que usuários compreendam como fatores individuais afetam o custo do plano de saúde.  
+✔️ **Escolha informada** – Os clientes podem simular diferentes cenários antes de contratar um plano, evitando gastos inesperados.  
+✔️ **Comparação inteligente** – Potencial para ajudar consumidores a comparar opções de planos de diferentes operadoras.  
+
+### 🔹 **Benefícios para Empresas e Seguradoras**  
+✔️ **Otimização da precificação** – Empresas podem ajustar políticas de preços de forma mais eficiente, considerando riscos individuais.  
+✔️ **Melhoria na retenção de clientes** – Oferecendo transparência, seguradoras podem fortalecer a relação de confiança com consumidores.  
+✔️ **Análise de risco aprimorada** – Modelos como LightGBM podem ajudar na identificação de perfis de maior risco, ajustando estratégias de precificação.  
+
+### 🔹 **Possibilidades de Expansão do Projeto**  
+✅ **Inclusão de novos fatores** como histórico médico, cidade e estado, para previsões ainda mais precisas.  
+✅ **Aplicação comercial** – Modelo pode ser adaptado para que seguradoras utilizem previsões em seus sistemas internos.  
+✅ **Treinamento contínuo** – Implementação de aprendizado incremental com IA para que o modelo se ajuste a novas tendências do mercado.  
+
+---
+
 ## 🎯 Habilidades Demonstradas  
 
 ✔️ **Manipulação de dados** com `pandas` e `numpy`, garantindo organização e limpeza dos registros.  
