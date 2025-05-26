@@ -90,6 +90,25 @@ O valor total é calculado e exibido na interface do **Streamlit**, permitindo a
 
 ---
 
+## 🔧 Pré-requisitos  
+
+Antes de iniciar, verifique se o **Python 3.9 ou superior** está instalado no seu sistema.  
+
+1️⃣ **Verifique se o Python está instalado**  
+```bash
+python --version
+```
+Se o comando não retornar uma versão do Python, instale-o [aqui](https://www.python.org/downloads/).
+
+2️⃣ Verifique se o Git está instalado
+```bash
+git --version
+```
+
+Se o comando não retornar uma versão do Git, instale-o [aqui](https://git-scm.com/downloads).
+
+---
+
 ## 🎮 Como Executar  
 
 1️⃣ **Clone o repositório**  
