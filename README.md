@@ -9,9 +9,9 @@ Esse projeto foi criado para demonstrar **habilidades em Ciência de Dados**, ab
 ---
 
 ## 📑 Notebook do Projeto  
-O notebook usado para análise exploratória e modelagem preditiva pode ser acessado diretamente no **GitHub**:  
+O notebook usado pode ser acessado diretamente no **GitHub**:  
 
-🔗 **[Notebook no GitHub](https://github.com/JeffeGN/SaudeViva/blob/main/notebooks/Plano%20de%20Sa%C3%BAde.ipynb)**  (Abra em uma nova aba)
+🔗 **[Notebook no GitHub](https://github.com/JeffeGN/SaudeViva/blob/main/Plano%20de%20Sa%C3%BAde.ipynb)**  (Abra em uma nova aba)
 
 ---
 
@@ -42,6 +42,7 @@ O notebook usado para análise exploratória e modelagem preditiva pode ser aces
 ✔️ **Testes de diferentes algoritmos de Machine Learning** para avaliar precisão e desempenho.  
 ✔️ **Uso de um modelo baseline** para comparar o desempenho das abordagens preditivas.  
 ✔️ **Validação de modelos** utilizando métricas como `MAE`, `RMSE`, `R²` e `Cross-validation`.  
+✔️ **Teste de generalização para identificar overfitting e underfitting** usando **curvas de aprendizado**.  
 ✔️ **Otimização de hiperparâmetros com Bayesian Search** para os modelos mais promissores.  
 ✔️ **Criação de um dashboard interativo** utilizando `Streamlit`.  
 ✔️ **Deploy do projeto no GitHub**, estruturando um repositório profissional para apresentação.  
