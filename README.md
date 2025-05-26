@@ -35,38 +35,35 @@ Esse projeto foi criado para demonstrar **habilidades em Ciência de Dados**, ab
 ---
 
 ## 🎯 Habilidades Demonstradas  
-
-✔️ **Manipulação de dados** com `pandas` e `numpy`, garantindo organização e limpeza dos registros.  
-✔️ **Análise exploratória de dados (EDA)** utilizando histogramas, boxplots e matriz de correlação.  
-✔️ **Engenharia de features**, realizando transformação de variáveis categóricas e normalização de dados.  
-✔️ **Testes de diferentes algoritmos de Machine Learning** para avaliar precisão e desempenho.  
-✔️ **Uso de um modelo baseline** para comparar o desempenho das abordagens preditivas.  
-✔️ **Validação de modelos** utilizando métricas como `MAE`, `RMSE`, `R²` e `Cross-validation`.  
-✔️ **Teste de generalização para identificar overfitting e underfitting** usando **curvas de aprendizado**.  
-✔️ **Otimização de hiperparâmetros com Bayesian Search** para os modelos mais promissores.  
-✔️ **Criação de um dashboard interativo** utilizando `Streamlit`.  
-✔️ **Deploy do projeto no GitHub**, estruturando um repositório profissional para apresentação.  
-
----
+✔️ Manipulação de dados com pandas e numpy, garantindo organização e limpeza dos registros.  
+✔️ Análise exploratória de dados (EDA) utilizando histogramas, boxplots e matriz de correlação.  
+✔️ Engenharia de features, realizando transformação de variáveis categóricas e normalização de dados.  
+✔️ Testes de diferentes algoritmos de Machine Learning para avaliar precisão e desempenho.  
+✔️ Uso de um modelo baseline para comparar o desempenho das abordagens preditivas.  
+✔️ Validação de modelos utilizando métricas como MAE, RMSE, R² e Cross-validation.  
+✔️ Teste de generalização para identificar overfitting e underfitting usando curvas de aprendizado.  
+✔️ Otimização de hiperparâmetros com Bayesian Search para os modelos mais promissores.  
+✔️ Criação de um dashboard interativo utilizando **Streamlit**.  
+✔️ **Deploy do projeto no GitHub e Streamlit Cloud**, tornando a aplicação acessível diretamente online.  
 
 ## 🛠 Tecnologias Utilizadas  
 
-### **📊 Manipulação e Visualização de Dados**  
-✔️ `pandas` → Estruturação, limpeza e análise de datasets.  
-✔️ `numpy` → Cálculos matemáticos para tratamento de variáveis numéricas.  
-✔️ `matplotlib` / `seaborn` → Criação de gráficos exploratórios e análise estatística.  
+### 📊 Manipulação e Visualização de Dados  
+✔️ pandas → Estruturação, limpeza e análise de datasets.  
+✔️ numpy → Cálculos matemáticos para tratamento de variáveis numéricas.  
+✔️ matplotlib / seaborn → Criação de gráficos exploratórios e análise estatística.  
 
-### **🤖 Modelagem Preditiva e Machine Learning**  
-✔️ `scikit-learn` → Implementação de algoritmos para previsão de custos.  
-✔️ `learning_curve` → Utilizado para análise da curva de aprendizado e avaliação de generalização do modelo.  
-✔️ `xgboost` → Modelo testado por sua robustez e alta performance.  
-✔️ `lightgbm` → Escolhido como modelo final por seu consumo otimizado de recursos.  
-✔️ `random forest` → Avaliado por sua precisão e interpretabilidade.  
-✔️ `pickle` → Serialização do modelo para integração no dashboard.  
+### 🤖 Modelagem Preditiva e Machine Learning  
+✔️ scikit-learn → Implementação de algoritmos para previsão de custos.  
+✔️ learning_curve → Utilizado para análise da curva de aprendizado e avaliação de generalização do modelo.  
+✔️ xgboost → Modelo testado por sua robustez e alta performance.  
+✔️ lightgbm → Escolhido como modelo final por seu consumo otimizado de recursos.  
+✔️ random forest → Avaliado por sua precisão e interpretabilidade.  
+✔️ pickle → Serialização do modelo para integração no dashboard.  
 
-### **🖥️ Desenvolvimento Web e Deploy**  
-✔️ `Streamlit` → Interface interativa para visualização das previsões.  
-✔️ `GitHub` → Hospedagem do código-fonte e documentação profissional.  
+### 🖥️ Desenvolvimento Web e Deploy  
+✔️ **Streamlit → Interface interativa para visualização das previsões, também disponível via Streamlit Cloud.**  
+✔️ **GitHub → Hospedagem do código-fonte e documentação profissional, integrando a aplicação ao ambiente online.**  
 
 ---
 
