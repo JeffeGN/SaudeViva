@@ -58,7 +58,7 @@ O notebook usado pode ser acessado diretamente no **GitHub**:
 
 ### **🤖 Modelagem Preditiva e Machine Learning**  
 ✔️ `scikit-learn` → Implementação de algoritmos para previsão de custos.  
-✔️ `learning_curve` → Utilizado para análise da curva de aprendizado e avaliação de generalização do modelo. 
+✔️ `learning_curve` → Utilizado para análise da curva de aprendizado e avaliação de generalização do modelo.  
 ✔️ `xgboost` → Modelo testado por sua robustez e alta performance.  
 ✔️ `lightgbm` → Escolhido como modelo final por seu consumo otimizado de recursos.  
 ✔️ `random forest` → Avaliado por sua precisão e interpretabilidade.  
