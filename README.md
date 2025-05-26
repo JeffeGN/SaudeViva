@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # SaudeViva
 Aplicação em Python e Streamlit para prever custos de planos de saúde com base em fatores individuais.
 =======
@@ -60,5 +59,4 @@ O número de filhos pode impactar diretamente os custos do plano de saúde, pois
 ---
 
 ## 📌 **Conclusão**
-Este projeto apresenta um **case realista**, simulando como um plano de saúde pode prever os custos anuais de seus beneficiários. Com a implementação de **Machine Learning**, o modelo permite que a empresa tome **decisões estratégicas**, melhore sua precificação e aumente a transparência para os clientes.  
->>>>>>> 3932e24 (Primeiro commit: adicionando arquivos iniciais)
+Este projeto apresenta um **case realista**, simulando como um plano de saúde pode prever os custos anuais de seus beneficiários. Com a implementação de **Machine Learning**, o modelo permite que a empresa tome **decisões estratégicas**, melhore sua precificação e aumente a transparência para os clientes.
