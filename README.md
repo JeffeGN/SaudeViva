@@ -10,7 +10,7 @@ Esse projeto foi criado para demonstrar **habilidades em Ciência de Dados**, ab
 
 ## 📑 Notebook e Dashboard do Projeto  
 
-🔗 **[Notebook no GitHub](https://github.com/JeffeGN/SaudeViva/blob/main/Plano%20de%20Sa%C3%BAde.ipynb)**
+🔗 **[Notebook no GitHub](https://github.com/JeffeGN/SaudeViva/blob/main/Plano%20de%20Sa%C3%BAde.ipynb)**  
 🔗 **[Aplicação via Streamlit Cloud](https://saudeviva-mj29yxjmdhwgsxx7we2xtb.streamlit.app/)**
 
 ---
