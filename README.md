@@ -44,7 +44,7 @@ Esse projeto foi criado para demonstrar **habilidades em Ciência de Dados**, ab
 ✔️ Teste de generalização para identificar overfitting e underfitting usando curvas de aprendizado.  
 ✔️ Otimização de hiperparâmetros com Bayesian Search para os modelos mais promissores.  
 ✔️ Criação de um dashboard interativo utilizando **Streamlit**.  
-✔️ **Deploy do projeto no GitHub e Streamlit Cloud**, tornando a aplicação acessível diretamente online.  
+✔️ Deploy do projeto no **GitHub** e **Streamlit Cloud**, tornando a aplicação acessível diretamente online.  
 
 ## 🛠 Tecnologias Utilizadas  
 
