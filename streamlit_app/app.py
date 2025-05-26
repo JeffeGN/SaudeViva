@@ -29,14 +29,17 @@ if st.button("Prever Custo do Plano de Saúde"):
     custo_anual = custo_base + adicional_idade + adicional_tabagismo + adicional_filhos + adicional_bmi
     custo_mensal = custo_anual / 12
 
+    # Ajuste da moeda para o formato brasileiro
+    ajuste = lambda valor: f"{valor:,.2f}".replace(',', 'X').replace('.', ',').replace('X', '.')
+
     # Exibição das estimativas
-    st.success(f"💰 Estimativa de **custo mensal** do plano de saúde: **R$ {custo_mensal:.2f}**")
-    st.success(f"📅 Estimativa de **custo anual** do plano de saúde: **R$ {custo_anual:.2f}**")
+    st.success(f"💰 Estimativa de **custo mensal** do plano de saúde: **R$ {ajuste(custo_mensal)}**")
+    st.success(f"📅 Estimativa de **custo anual** do plano de saúde: **R$ {ajuste(custo_anual)}**")
 
     # Exibição dos custos individuais
     st.subheader("Como este valor é calculado:")
-    st.write(f"📌 Custo Base: **R$ {custo_base / 12:.2f}** / mês")
-    st.write(f"👴 Acréscimo pela idade: **R$ {adicional_idade / 12:.2f}** / mês")
-    st.write(f"🚬 Acréscimo pelo tabagismo: **R$ {adicional_tabagismo / 12:.2f}** / mês")
-    st.write(f"👶 Acréscimo pelo número de filhos: **R$ {adicional_filhos / 12:.2f}** / mês")
-    st.write(f"⚖️ Acréscimo pelo IMC: **R$ {adicional_bmi / 12:.2f}** / mês")
+    st.write(f"📌 Custo Base: **R$ {ajuste(custo_base / 12)}** / mês")
+    st.write(f"👴 Acréscimo pela idade: **R$ {ajuste(adicional_idade / 12)}** / mês")
+    st.write(f"🚬 Acréscimo pelo tabagismo: **R$ {ajuste(adicional_tabagismo / 12)}** / mês")
+    st.write(f"👶 Acréscimo pelo número de filhos: **R$ {ajuste(adicional_filhos / 12)}** / mês")
+    st.write(f"⚖️ Acréscimo pelo IMC: **R$ {ajuste(adicional_bmi / 12)}** / mês")
