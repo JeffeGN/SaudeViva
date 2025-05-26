@@ -115,4 +115,5 @@ streamlit run app.py
 ```
 6️⃣ Insira seus dados na interface e veja sua estimativa de custo  
 
-![image](https://github.com/user-attachments/assets/9fbd559d-b375-44ae-9120-44a6dae0c300)
+![image](https://github.com/user-attachments/assets/279f2e76-7965-4fbf-a80e-97f48900b042)
+
