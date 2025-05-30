@@ -2,6 +2,10 @@
 
 ## 🚀 Visão Geral  
 
+- [IBGE: População brasileira chega a 52.1 milhões](https://www.gov.br/secom/pt-br/assuntos/noticias/2024/08/populacao-do-brasil-chega-a-212-6-milhoes-de-habitantes-aponta-ibge)
+- [ANS: Benefciários de plano de saúde chega a 216.6 milhões](https://www.gov.br/ans/pt-br/assuntos/noticias/numeros-do-setor/setor-de-planos-de-saude-fecha-2024-com-numeros-recordes-de-beneficiarios)
+- $\large{\frac{52.1}{216.6}}\approx 24\%$ da população brasileira possui plano de saúde
+
 O **SaúdeViva** é uma aplicação desenvolvida em **Python** e **Streamlit**, projetada para estimar os custos de planos de saúde com base em fatores individuais. O objetivo é oferecer **transparência na precificação**, permitindo que os usuários visualizem como **idade, IMC, tabagismo e número de filhos** impactam no valor final.
 
 Esse projeto foi criado para demonstrar **habilidades em Ciência de Dados**, abrangendo **análise exploratória**, **tratamento de dados**, **Machine Learning**, **validação de modelos** e **deploy de aplicações interativas**.
@@ -45,6 +49,10 @@ Esse projeto foi criado para demonstrar **habilidades em Ciência de Dados**, ab
 ✔️ Otimização de hiperparâmetros com Bayesian Search para os modelos mais promissores.  
 ✔️ Criação de um dashboard interativo utilizando **Streamlit**.  
 ✔️ Deploy do projeto no **GitHub** e **Streamlit Cloud**, tornando a aplicação acessível diretamente online.  
+✔️ Tratamento de duplicatas com a implementação de critérios para remoção seletiva de duplicatas sem ID, garantindo a qualidade dos dados.  
+✔️ Análise estatística de distribuição através da avaliação do skewness para identificar variáveis que precisavam de transformação.  
+✔️ Interpretação de estatísticas com cálculo e análise do impacto da transformação nos dados, verificando a redução da assimetria.  
+✔️ Transformação de dados aplicando transformação Yeo-Johnson para normalizar distribuições assimétricas.  
 
 ---
 
