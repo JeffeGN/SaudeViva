@@ -4,7 +4,7 @@
 
 - [IBGE: População brasileira chega a 52.1 milhões](https://www.gov.br/secom/pt-br/assuntos/noticias/2024/08/populacao-do-brasil-chega-a-212-6-milhoes-de-habitantes-aponta-ibge)
 - [ANS: Benefciários de plano de saúde chega a 216.6 milhões](https://www.gov.br/ans/pt-br/assuntos/noticias/numeros-do-setor/setor-de-planos-de-saude-fecha-2024-com-numeros-recordes-de-beneficiarios)
-- Segundo os dados do IBGE e da ANS, apenas 24% da população brasileira possui plano de saúde, um número bem baixo.
+- Segundo os dados do IBGE e da ANS, apenas 24% da população brasileira possui plano de saúde.
 
 O **SaúdeViva** é uma aplicação desenvolvida em **Python** e **Streamlit**, projetada para estimar os custos de planos de saúde com base em fatores individuais. O objetivo é oferecer **transparência na precificação**, permitindo que os usuários visualizem como **idade, IMC, tabagismo e número de filhos** impactam no valor final.
 
