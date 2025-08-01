@@ -38,7 +38,7 @@ Esse projeto foi criado para demonstrar **habilidades em Ciência de Dados**, ab
 
 ---
 
-## 🎯 Habilidades Demonstradas  
+## Habilidades Demonstradas  
 ✔️ Manipulação de dados com pandas e numpy, garantindo organização e limpeza dos registros.  
 ✔️ Análise exploratória de dados (EDA) utilizando histogramas, boxplots e matriz de correlação.  
 ✔️ Engenharia de features, realizando transformação de variáveis categóricas e normalização de dados.  
@@ -144,7 +144,7 @@ O valor total é calculado e exibido na interface do **Streamlit**, permitindo a
 
 ---
 
-## 🔧 Pré-requisitos  
+## Pré-requisitos  
 
 Antes de iniciar, verifique se o **Python 3.9 ou superior** está instalado no seu sistema.  
 
