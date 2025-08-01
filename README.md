@@ -1,6 +1,6 @@
-# 📊 SaúdeViva – Previsão de Custos de Planos de Saúde  
+# SaúdeViva – Previsão de Custos de Planos de Saúde  
 
-## 🚀 Visão Geral  
+## Visão Geral  
 
 - [IBGE: População brasileira chega a 52.1 milhões](https://www.gov.br/secom/pt-br/assuntos/noticias/2024/08/populacao-do-brasil-chega-a-212-6-milhoes-de-habitantes-aponta-ibge)
 - [ANS: Benefciários de plano de saúde chega a 216.6 milhões](https://www.gov.br/ans/pt-br/assuntos/noticias/numeros-do-setor/setor-de-planos-de-saude-fecha-2024-com-numeros-recordes-de-beneficiarios)
@@ -12,14 +12,14 @@ Esse projeto foi criado para demonstrar **habilidades em Ciência de Dados**, ab
 
 ---
 
-## 📑 Notebook e Dashboard do Projeto  
+## Notebook e Dashboard do Projeto  
 
 🔗 **[Notebook no GitHub](https://github.com/JeffeGN/SaudeViva/blob/main/Plano%20de%20Sa%C3%BAde.ipynb)**  
 🔗 **[Aplicação via Streamlit Cloud](https://saudeviva-mj29yxjmdhwgsxx7we2xtb.streamlit.app/)**
 
 ---
 
-## 📈 Impacto do Projeto  
+## Impacto do Projeto  
 
 ### 🔹 **Benefícios para Consumidores**  
 ✔️ **Transparência na precificação** – Permite que usuários compreendam como fatores individuais afetam o custo do plano de saúde.  
@@ -58,7 +58,7 @@ Esse projeto foi criado para demonstrar **habilidades em Ciência de Dados**, ab
 
 ---
 
-## 📌 Aprendizados e Desafios  
+## Aprendizados e Desafios  
 
 Durante o desenvolvimento do projeto, foram enfrentados desafios relacionados à manipulação e modelagem dos dados, bem como à implementação e deploy da aplicação.  
 
@@ -71,14 +71,14 @@ A resolução desses desafios contribuiu para o aprimoramento de habilidades ess
 
 ---
 
-## 🛠 Tecnologias Utilizadas  
+## Tecnologias Utilizadas  
 
-### 📊 Manipulação e Visualização de Dados  
+### Manipulação e Visualização de Dados  
 ✔️ pandas → Estruturação, limpeza e análise de datasets.  
 ✔️ numpy → Cálculos matemáticos para tratamento de variáveis numéricas.  
 ✔️ matplotlib / seaborn → Criação de gráficos exploratórios e análise estatística.  
 
-### 🤖 Modelagem Preditiva e Machine Learning  
+### Modelagem Preditiva e Machine Learning  
 ✔️ scikit-learn → Implementação de algoritmos para previsão de custos.  
 ✔️ learning_curve → Utilizado para análise da curva de aprendizado e avaliação de generalização do modelo.  
 ✔️ xgboost → Modelo testado por sua robustez e alta performance.  
@@ -90,13 +90,13 @@ A resolução desses desafios contribuiu para o aprimoramento de habilidades ess
 ✔️ Implementação de LightGBM e Random Forest, avaliando trade-offs entre desempenho e escalabilidade.  
 
 
-### 🖥️ Desenvolvimento Web e Deploy  
+###  Desenvolvimento Web e Deploy  
 ✔️ **Streamlit → Interface interativa para visualização das previsões, também disponível via Streamlit Cloud.**  
 ✔️ **GitHub → Hospedagem do código-fonte e documentação profissional, integrando a aplicação ao ambiente online.**  
 
 ---
 
-## 📊 Etapas do Projeto  
+## Etapas do Projeto  
 
 ### **1️⃣ Baseline para Avaliação de Modelos**  
 - A **Regressão Linear** foi usada como **baseline** para medir a eficácia dos algoritmos preditivos.  
@@ -129,7 +129,7 @@ Os modelos **Random Forest** e **LightGBM** apresentaram resultados similares, e
 
 ---
 
-## 💰 Estrutura do Cálculo  
+## Estrutura do Cálculo  
 
 O custo do plano de saúde é ajustado com um valor base **anual** de **R$ 4.000**, adicionando incrementos conforme os seguintes fatores:
 
@@ -163,7 +163,7 @@ Se o comando não retornar uma versão do Git, instale-o [aqui](https://git-scm.
 
 ---
 
-## 🎮 Como Executar Localmente  
+## Como Executar Localmente  
 
 1️⃣ **Clone o repositório**  
 ```bash
